@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js && zuul --ui tape --local 9966 -- test.js",
-    "ci": "node test.js && zuul -- test.js"
+    "ci": "node test.js"
   },
   "repository": {
     "type": "git",
