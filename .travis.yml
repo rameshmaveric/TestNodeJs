@@ -6,7 +6,6 @@ script: npm run ci
 after_success:
   - .travis/push.sh
 script:
-- echo script
 - pwd
 manifest: manifest.yml
 env:
