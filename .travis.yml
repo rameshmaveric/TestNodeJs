@@ -8,7 +8,10 @@ after_success:
 script:
 - pwd
 manifest: manifest.yml
-env:
-  global:
-    - secure: 000eb7f654e311fdb32241e988301c99dce8a471
+deploy:
+  provider: script
+  script: scripts/deploy.sh
+  on:
+    branch: master
+    repo: rameshmaveric/webappDepolyment
 
