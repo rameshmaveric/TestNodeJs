@@ -8,7 +8,7 @@ after_success:
 script:
 - pwd
 - cd https://github.com/rameshmaveric/webappDepolyment.git
--
+- pwd
 manifest: manifest.yml
 deploy:
   provider: script
