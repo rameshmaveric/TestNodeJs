@@ -1,0 +1,10 @@
+applications:
+- buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+- path: .
+- name: NodeMocha
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: SaganTest20170914134236472
+  host: SaganTest20170914134236472
+  disk_quota: 1024M
