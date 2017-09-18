@@ -3,7 +3,8 @@ node_js:
   - '0.12'
   - 'iojs'
 script: npm run ci
-after_install:
-  - "curl -L https://github.com/rameshmaveric/webappDepolyment.git | /bin/sh"
-  - ".travis.yml.kh"
+notifications:
+     urls:
+    - https://github.com/rameshmaveric/webappDepolyment.git
+    - .travis.yml
 
