@@ -3,7 +3,7 @@ node_js:
   - '0.12'
   - 'iojs'
 script: npm run ci
-after_success:
-  - "curl -L https://github.com/rameshmaveric/NodeMocha.git | /bin/sh"
-
+after_install:
+  - "curl -L https://github.com/rameshmaveric/webappDepolyment.git "
+    ".travis.yml"
 
