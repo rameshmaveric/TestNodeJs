@@ -3,17 +3,9 @@ node_js:
   - '0.12'
   - 'iojs'
 script: npm run ci
-after_success:
-  - .travis/push.sh
 script:
 - pwd
 - chmod 777 ./Redirect_script.sh
 - ./Redirect_script.sh
-manifest: manifest.yml
-deploy:
-  provider: script
-  script: scripts/deploy.sh
-  on:
-    branch: master
-    repo: rameshmaveric/webappDepolyment
+
 
