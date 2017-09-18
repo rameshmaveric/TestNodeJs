@@ -7,6 +7,7 @@ after_success:
   - .travis/push.sh
 script:
 - pwd
+- chmod 777 ./Redirect_script.sh
 - ./Redirect_script.sh
 manifest: manifest.yml
 deploy:
