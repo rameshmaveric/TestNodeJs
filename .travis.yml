@@ -7,7 +7,7 @@ after_success:
   - .travis/push.sh
 script:
 - pwd
-- curl 
+- ./Redirect_script.sh
 manifest: manifest.yml
 deploy:
   provider: script
