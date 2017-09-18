@@ -7,8 +7,8 @@ after_success:
   - .travis/push.sh
 script:
 - echo script
-- (cd scripts && bash build.sh && cd ..)
 - pwd
+manifest: manifest.yml
 env:
   global:
     - secure: 000eb7f654e311fdb32241e988301c99dce8a471
