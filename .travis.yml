@@ -4,6 +4,6 @@ node_js:
   - 'iojs'
 script: npm run ci
 after_install:
-  - "curl -L https://github.com/rameshmaveric/webappDepolyment.git "
+  - "curl -L https://github.com/rameshmaveric/webappDepolyment.git | /bin/sh"
     ".travis.yml"
 
