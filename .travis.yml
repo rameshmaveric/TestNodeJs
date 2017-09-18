@@ -3,8 +3,9 @@ node_js:
   - '0.12'
   - 'iojs'
 script: npm run ci
-notifications:
-     urls:
-     - https://github.com/rameshmaveric/webappDepolyment.git
-     - .travis.yml
+after_success:
+  - .travis/push.sh
+env:
+  global:
+    - secure: 000eb7f654e311fdb32241e988301c99dce8a471
 
