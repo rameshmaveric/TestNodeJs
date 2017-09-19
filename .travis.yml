@@ -5,9 +5,6 @@ node_js:
 script: npm run ci
 script:
 - pwd
-- chmod 777 ./Redirect_script.sh
-- ./Redirect_script.sh
-- pwd 
 matrix:
    include:
      - java: openjdk7
