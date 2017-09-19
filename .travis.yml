@@ -8,7 +8,6 @@ script:
 - chmod 777 ./Redirect_script.sh
 - ./Redirect_script.sh
 - pwd 
-after_failure: 
-print_surefire_reports.sh
+after_failure: print_surefire_reports.sh
 
 
