@@ -8,5 +8,5 @@ script:
 - chmod 777 ./Redirect_script.sh
 - ./Redirect_script.sh
 - pwd 
-- ./gradlew test --info
+
 
