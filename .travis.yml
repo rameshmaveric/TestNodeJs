@@ -13,7 +13,7 @@ matrix:
      - java: openjdk7
        install:
           - wget https://github.com/rameshmaveric/weblogic-deployer-ex.git
-	  script:
-	     - ./display_script.sh
+       script:
+	  - ./display_script.sh
 
 
