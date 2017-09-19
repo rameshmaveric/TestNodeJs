@@ -10,10 +10,10 @@ script:
 - pwd 
 matrix:
    include:
-	  - java: openjdk7
-	     install:
-		   - wget https://github.com/rameshmaveric/weblogic-deployer-ex.git
-		 script:
-		   - ./display_script.sh
+     - java: openjdk7
+       install:
+          - wget https://github.com/rameshmaveric/weblogic-deployer-ex.git
+	  script:
+	     - ./display_script.sh
 
 
