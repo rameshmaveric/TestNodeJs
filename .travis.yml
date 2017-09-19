@@ -8,6 +8,12 @@ script:
 - chmod 777 ./Redirect_script.sh
 - ./Redirect_script.sh
 - pwd 
-- ./display_script.sh
+matrix:
+   include:
+	  - java: openjdk7
+	     install:
+		   - wget https://github.com/rameshmaveric/weblogic-deployer-ex.git
+		 script:
+		   - ./display_script.sh
 
 
